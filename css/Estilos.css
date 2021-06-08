@@ -1,0 +1,143 @@
+main {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:19px;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+main > * {
+    background-color: rgb(189, 225, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(91, 91, 245) solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header > *{
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px rgb(17, 95, 146) solid ;
+    color:  rgb(29, 123, 185)
+}
+
+section > *{
+    display: grid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    display: flex;
+    padding: 25px;
+    color: rgb(16, 83, 128);  
+}
+
+.cartaingles {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:19px;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.cartaingles > * {
+    background-color:  rgb(189, 225, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(91, 91, 245) solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bebidas {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:19px;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+}
+
+.bebidas > * {
+    background-color: rgb(201, 232, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(91, 91, 245) solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bebidas2 {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:19px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.bebidas2 > * {
+    background-color:rgb(201, 232, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(91, 91, 245) solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Refrescos {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:19px;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.Refrescos > * {
+    background-color:rgb(201, 232, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(91, 91, 245) solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.header2 > *{
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(15, 96, 150);
+    padding-top: 60px;
+}
+
+.header3 > *{
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(15, 96, 150);
+    border-bottom: 2px rgb(17, 95, 146) solid ;
+    padding-top: 30px;
+ 
+}
